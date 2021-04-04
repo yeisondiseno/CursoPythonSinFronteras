@@ -38,8 +38,44 @@ listaWords.reverse()
 
 # crear tuplas
 tupla = ('Hola', 'Mundo', 'Somos', 'Tupla')
-print(tupla.index('Mundo'))
+# print(tupla.index('Mundo'))
 
 # transformamos tupla a listaa
 listaDeTupla = list(tupla)
-print(listaDeTupla)
+# print(listaDeTupla)
+
+# rangos 
+rango = range(6)
+# print(rango)
+
+# diccionarios, se usan strings para encontrar un valos en particular
+# Esto es un puto array
+diccionario = {
+    'nombre': 'Simón',
+    'raza': 'Criollo',
+    'edad': 6
+}
+
+# print(diccionario)
+# print(diccionario['nombre'])
+# print(diccionario['raza'])
+# print(diccionario.get('raza'))
+# cambiar valores 
+diccionario['nombre'] = 'Raúl'
+# print(diccionario['nombre'])
+# print(len(diccionario))
+
+diccionario['ronronea'] = 'si'
+print(diccionario)
+
+# se elimina con pop o poo item (Este último elimina el útimo valor) o del
+# diccionario.pop('ronronea')
+# diccionario.popitem()
+del diccionario['ronronea']
+print(diccionario)
+
+# Eliminar todos los elementos 
+diccionario.clear()
+print(diccionario)
+
+
