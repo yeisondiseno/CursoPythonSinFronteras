@@ -26,3 +26,4 @@ if 2 < 5 and 4 < 10:
 
 if 2 < 5 or 4 == 10:
     print('una condicion es true')
+
